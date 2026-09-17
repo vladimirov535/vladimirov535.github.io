@@ -6000,3 +6000,39 @@ html.tablet .ui-to-top {
 		margin-right: -73px;
 	}
 }
+
+
+/* Mobile usability enhancements */
+@media (max-width: 767.98px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 320px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .rd-navbar-brand img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .section-full,
+  .section-xl,
+  .section-xxl {
+    min-height: auto;
+  }
+
+  .title-style-1 {
+    overflow-wrap: anywhere;
+  }
+}
