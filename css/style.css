@@ -6036,3 +6036,14 @@ html.tablet .ui-to-top {
     overflow-wrap: anywhere;
   }
 }
+
+/* Country order links */
+.rd-navbar-sidebar .rd-navbar-nav-container > * { flex-shrink: 0; }
+.rd-navbar-sidebar .vant-order-item .rd-nav-link {
+ min-height:44px; display:flex; flex-wrap:wrap; align-items:center;
+ gap:6px 10px; line-height:1.35; word-break:normal; overflow-wrap:break-word;
+}
+.rd-navbar-sidebar .vant-order-item small {font-size:12px;line-height:1.5;color:#ccc}
+.rd-navbar-sidebar .vant-order-pending,
+.rd-navbar-sidebar .vant-order-pending:hover {color:#bdbdbd;cursor:default}
+.rd-navbar-sidebar .vant-order-pending::before {display:none}
