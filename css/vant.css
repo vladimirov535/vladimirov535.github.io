@@ -1,0 +1,10 @@
+/* VANT imagery, responsive layouts */
+.vant-photo-hero { display:block; min-height:0; padding:100px 20px 40px; background:#171717; color:#fff; }
+.vant-photo-hero .title-style-1, .vant-photo-hero h1 { color:#fff; }
+.vant-hero-image { display:block; width:100%; max-width:1000px; height:auto; margin:32px auto 0; border-radius:12px; }
+.owl-carousel .vant-product-photo, .project-classic .vant-product-photo { width:100%; height:auto; aspect-ratio:4/3; object-fit:contain; background:#f4f4f4; }
+.team-classic .vant-product-photo { width:100%; height:auto; aspect-ratio:370/502; object-fit:contain; background:#f4f4f4; }
+.vant-sizes { max-width:760px; margin:auto; padding:24px; background:#f4f4f4; border-radius:12px; }
+.vant-sizes img { width:100%; height:auto; margin-top:24px; }
+.vant-size-options { font-size:clamp(22px,4vw,36px); font-weight:700; }
+@media(max-width:767px) { .vant-photo-hero { padding:85px 12px 24px; } .vant-hero-image { margin-top:24px; border-radius:8px; } .vant-sizes { padding:18px; } }
